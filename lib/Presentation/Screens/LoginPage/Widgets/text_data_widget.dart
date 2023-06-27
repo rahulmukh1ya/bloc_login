@@ -9,18 +9,19 @@ class TextData extends StatelessWidget {
   Widget build(BuildContext context) {
     return RichText(
       text: TextSpan(
-          text: 'Login ',
-          style: const TextStyle(fontSize: 25.00),
-          children: <TextSpan>[
-            TextSpan(
-              text: message,
-              style: const TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 25.00,
-                color: Colors.blue,
-              ),
-            )
-          ]),
+        text: 'Login ',
+        style: const TextStyle(fontSize: 25.00),
+        children: <TextSpan>[
+          TextSpan(
+            text: message,
+            style: const TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 25.00,
+              color: Colors.blue,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
